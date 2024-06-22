@@ -31,13 +31,13 @@ body {
 }
 .logo {
     height: 70px;
-    margin-left: 50px;
+    margin-left: 3vw;
 }
 .social-media {
     display: flex;
     gap: 10px;
     font-size: 25px;
-    margin-right: 60px;
+    margin-right: 7vw;
     font-weight: 500;
     height: 37px;
 }
@@ -222,7 +222,7 @@ text-align: justify;
         width: 100%;
     }
     .social-media span{
-        display: none;
+        font-size: 20px;
     }
     .slide-text{
         font-size: 24px;
@@ -240,4 +240,16 @@ text-align: justify;
         width: 80%;
         padding: 20px;
     }
+}
+@media (max-width: 500px) {
+    .logo {
+        height: 58px;
+    }
+    .social-media span{
+        display: none;
+    }
+    .social-media img {
+        width: 32px;
+    }
+    
 }
