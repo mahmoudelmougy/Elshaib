@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (valid) {
-            // Form is valid, submit the form or perform any other necessary actions
             alert('تم إرسال بياناتك بنجاح!');
         }
     });
