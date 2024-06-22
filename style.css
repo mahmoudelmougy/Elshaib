@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'JFFlat';
-    src: url(/fonts/JF-Flat-Regular.ttf);
+    src: url(fonts/JF-Flat-Regular.ttf);
 }
 
 body {
@@ -58,7 +58,7 @@ body {
     position: relative;
     overflow: hidden;
     margin-top: 90px;
-    background-image: url(/images/business-person-2.jpeg);
+    background-image: url(images/business-person-2.jpeg);
     background-size: contain;
     /* background-repeat: no-repeat; */
 
