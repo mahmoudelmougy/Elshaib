@@ -251,5 +251,9 @@ text-align: justify;
     .social-media img {
         width: 32px;
     }
-    
+    .slide-text{
+        font-size: 23px;
+        text-align: center;
+        padding-left: 50px;
+    }
 }
