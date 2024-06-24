@@ -179,7 +179,7 @@ body {
     border-radius: 50%;
 }
 .content-block p{
-    text-align: justify;
+    text-align: start;
 }
 .footer {
     display: flex;
@@ -201,7 +201,7 @@ body {
     color: #000;
 }
 .footer-column p{
-text-align: justify;
+text-align: start;
 }
 .footer-column a{
     text-decoration: none;
