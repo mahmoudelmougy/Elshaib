@@ -80,9 +80,9 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     .then(response => response.json())
     .then(data => {
         if (data.ok) {
-            alert('Form submission received!');
+            alert('تم إرسال بياناتك بنجاح!');
         } else {
-            alert('There was an error submitting the form.');
+            alert('حدث خطأ ما يرجى إعادة المحاولة');
         }
     })
     .catch(error => {
